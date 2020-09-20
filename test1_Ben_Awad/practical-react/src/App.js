@@ -7,6 +7,7 @@ import "./App.css";
 //     To get started, edit the <code>src/App.js </code> and save and reload
 //   </p>
 // );
+const Logo = () => <img src={logo} className="App-logo" alt="logo" />;
 const Body = () => {
   return (
     <p className="App_body">
@@ -23,7 +24,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <Logo />
         {/* <p>
           Edit <code>src/App.js</code> and save to reload.
         </p> */}
